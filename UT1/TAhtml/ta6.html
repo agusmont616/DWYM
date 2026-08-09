@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <h1>Encuesta</h1>
+    
+    <form>
+
+        <label for="estilos">¿Qué estilos de música te gustan? (Podés elegir varios)</label>
+        <br>
+        <select id="estilos" name="estilos" multiple size="7">
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="rb">R&B</option>
+            <option value="blues">Blues</option>
+            <option value="jazz">Jazz</option>
+            <option value="trap">Trap</option>
+            <option value="cumbia">Cumbia</option>
+        </select>
+        <br><br/>
+
+        <p>¿Cuántas horas de música escuchas por día?</p> 
+        <input type="radio" name="menosDe2" id="tiempo" value="menosDe2">
+        <label for="menosDe2">Menos de 2</label>
+
+        <input type="radio" name="de2a4" id="tiempo" value="de2a4">
+        <label for="de2a4">Entre 2 y 4</label>
+
+        <input type="radio" name="masDe4" id="tiempo" value="masDe4">
+        <label for="masDe4">Más de 4</label>
+
+    </form>
+
+</body>
