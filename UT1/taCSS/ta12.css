@@ -11,3 +11,8 @@
     font-size: 28px;
     font-family: 'Helvetica', 'Times New Roman', Times, serif;
 }
+
+/*  • ¿Cada elemento tiene un nombre de clase único? -> sí
+    • ¿Usaste el selector de agrupamiento para los estilos que ambos elementos comparten? 
+    • ¿Hiciste reglas separadas para los estilos únicos de cada elemento?
+*/
