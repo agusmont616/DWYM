@@ -13,6 +13,6 @@
 }
 
 /*  • ¿Cada elemento tiene un nombre de clase único? -> sí
-    • ¿Usaste el selector de agrupamiento para los estilos que ambos elementos comparten? 
-    • ¿Hiciste reglas separadas para los estilos únicos de cada elemento?
+    • ¿Usaste el selector de agrupamiento para los estilos que ambos elementos comparten? -> sí, en primer-elemento, segundo-elemento {...} se declaran parámetros comunes a ambas clases
+    • ¿Hiciste reglas separadas para los estilos únicos de cada elemento? -> sí, cada elemento tiene sus reglas y a su vez comparten algunas.
 */
