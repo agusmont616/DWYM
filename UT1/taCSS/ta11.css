@@ -1,0 +1,20 @@
+.elemento-impar {
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.segundo-elemento {
+    color: blue;
+    font-size: 24px;
+}
+
+.tercer-elemento {
+    
+    font-size: 24px;
+}
+
+.cuarto-elemento {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
