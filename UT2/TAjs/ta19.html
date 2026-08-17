@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19</title>
+    <script src="ta19.js" defer></script>
+    <link rel="stylesheet" href="ta19.css">
+</head>
+<body>
+
+    <h1>TA 19</h1>
+    <p>Formulario:</p>
+    <form id="formulario" novalidate>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <p class="error" id="errorNombre"></p>
+        <br><br/>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+        <p class="error" id="errorEmail"></p>
+        <br><br/>
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password">
+        <p class="error" id="errorPassword"></p>
+        <br><br/>
+
+        <input type="submit" value="Registrarse" id="registrarse">
+
+    </form>
+
+</body>
+</html>
